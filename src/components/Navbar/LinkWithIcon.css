@@ -1,0 +1,35 @@
+.link_emoji{
+    width: 20px;
+    margin-left: 5px;
+}
+.sidebar_link{
+    box-shadow: 2px 2px 30px #6457f989; 
+    background-color: #3d2cf3;
+   
+    color: #fff;
+
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: all 0.15s ease-in-out;
+    margin: 6px;
+}
+.link{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color:#fff;
+}
+
+   
+.sidebar_link:hover{
+    background-color: #6457F9;
+}
+.sidebar_link img {
+    width: 30px;
+    margin-left: 0;
+    margin-right: 8px;
+}
+

@@ -1,0 +1,33 @@
+.products_list_section{
+    padding: 10px;
+    padding-left: 30px;
+
+}
+.products_list_header{
+    justify-content: space-between;
+}
+.products_list_header h2{
+    font-style: 26px;
+}
+.products_sorting{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: inherit;
+    height: 35px;
+    padding: 0 5px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.products_list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+@media only screen  and (max-width:600px) {
+    .products_list{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    } 
+}

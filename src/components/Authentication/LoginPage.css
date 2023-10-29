@@ -1,0 +1,55 @@
+.form_page{
+    justify-content: center;
+   
+}
+.authentication_form{
+    width: 25%;
+    padding: 32px 48px;
+    margin-top: 32px;
+    background-color: #fff;
+    box-shadow: 0px 1px 30px rgba(0, 0, 0, 0.082);
+    border-radius: 5px;
+}
+.authentication_form h2{
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+.form_inputs div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+
+}
+.form_inputs label{
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 8px;
+
+}
+.form_text_input{
+    height: 35px;
+    padding: 0 8px;
+    font-size: 17px;
+    font-weight: 500;
+    outline: none;
+
+
+}
+.form_submit{
+    font-size: 15px;
+    font-weight:700;
+    text-transform: uppercase;
+    height: 40px;
+    width: 100%;
+    margin: 25px 0 10px;
+    box-shadow: 2px 2px 20px rgba(4, 8, 255, 0.541);
+}
+.form_submit:active{
+    opacity: 0.8;
+}
+.form_error{
+    color:red;
+    font-size: 12px;
+}
