@@ -13,10 +13,10 @@
     opacity: 0.3;
     cursor: default;
 }
-.quantity_input_button:active {
+/* .quantity_input_button:active {
     opacity: 0.9;
     cursor: default;
-}
+} */
 .quantity_input_count{
     margin: 0  10px;
     text-align: center;
