@@ -98,7 +98,7 @@ const updateCart=(type,id)=>{
     }
   }, [user])
 
-
+//hjkihkhkhkhkjhjkhjkhkjg
   return (
     <UserContext.Provider value={user}>
       <CartContext.Provider value={{ cart, addToCart, removeFromCart,updateCart,setCart }}>
