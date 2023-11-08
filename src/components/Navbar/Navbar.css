@@ -23,7 +23,7 @@
     border: 1px solid #cdcdcd;
     border-radius: 5px;
     padding: 3px;
-
+    position: relative;
 }
 .navbar_search{
     border-radius: 3px;
@@ -45,6 +45,31 @@
     background-color: #5d4ffc;
     color: #fff;
     cursor: pointer;
+}
+.search_result{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid #cdcdcd;
+    border-radius: 5px;
+    background-color: white;
+    z-index: 9999;
+}
+
+.search_suggestions_link{
+    display: flex;
+
+}
+
+.search_suggestions_link > a{
+    width: 100%;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.search_suggestions_link:hover{
+    background-color: #e3e3e3;
 }
 
 .navbar_links{

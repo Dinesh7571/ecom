@@ -10,13 +10,13 @@ const HomePage = () => {
     <div>
         <HeroSection title="Buy iPhone 14 Pro"
          subtitle="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti rem exercitationem quibusdam aperiam nemo quam!"
-         link='/' image={iphone}/>
+         link='/product/653bfa9d182c60ace99610fe' image={iphone}/>
          
         <FeaturedProducts/>
 
         <HeroSection title="Build the ultimate setup"
          subtitle="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti rem exercitationem quibusdam aperiam nemo quam!"
-         link='/' image={mac}/>
+         link='/product/653bfa9d182c60ace9961106' image={mac}/>
     </div>
   )
 }
