@@ -91,17 +91,27 @@ const updateCart=(type,id)=>{
       })
 
   }
-
+ 
   useEffect(() => {
     if (user) {
       getCart()
     }
+   
   }, [user])
 
+  const isMobile = window.innerWidth <= 600;
+  
 //hjkihkhkhkhkjhjkhjkhkjg
   return (
-    <UserContext.Provider value={user}>
+
+   
+      <UserContext.Provider value={user}>
       <CartContext.Provider value={{ cart, addToCart, removeFromCart,updateCart,setCart }}>
+
+
+      {isMobile ? (
+      <h1>This website is not responsive for small screens working on it please open in desktop ,pc or other big screen size</h1>
+    ) : (
         <div className='app'>
           <Navbar />
           <main>
@@ -112,8 +122,17 @@ const updateCart=(type,id)=>{
 
 
         </div>
+
+    )}
+
+
+
       </CartContext.Provider>
     </UserContext.Provider>
+  
+
+   
+   
   )
 }
 

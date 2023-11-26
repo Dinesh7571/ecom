@@ -29,9 +29,9 @@
 }
 
 @media only screen  and (max-width:600px) {
-    .products_list_section{
-        /* display: grid; */
-        padding-left: 0px;
-        /* grid-template-columns: auto; */
+    .products_list{
+        display: grid;
+        
+        grid-template-columns:1fr 1fr;
     } 
 }

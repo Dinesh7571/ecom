@@ -5,8 +5,9 @@ import 'react-loading-skeleton/dist/skeleton.css'
 
 const ProductCardSkeleton = () => {
   return (
-      <Skeleton className='product_card' width='230px'/>
+      <Skeleton className='product_card' width='200px'/>
   )
 }
+
 
 export default ProductCardSkeleton

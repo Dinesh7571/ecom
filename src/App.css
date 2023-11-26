@@ -3,3 +3,14 @@
   grid-template-rows: 50px auto;
  
 }
+
+
+@media only screen and (max-width: 600px) {
+  .app {
+    background-color: rgb(31, 0, 0);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 20px;
+  }
+}
